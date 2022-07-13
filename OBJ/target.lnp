@@ -31,6 +31,7 @@
 "..\obj\sys.o"
 "..\obj\usart.o"
 "..\obj\led.o"
+"..\obj\gpio.o"
 "..\obj\bsp.o"
 "..\obj\cpu_core.o"
 "..\obj\cpu_a.o"

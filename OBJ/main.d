@@ -54,3 +54,5 @@
 ..\obj\main.o: ..\uCOS-III\uC-III\Source\os_type.h
 ..\obj\main.o: ..\uCOS-III\uC-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h
 ..\obj\main.o: ..\uCOS-III\uC-CONFIG\os_app_hooks.h
+..\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main.o: ..\HARDWARE\GPIO\gpio.h

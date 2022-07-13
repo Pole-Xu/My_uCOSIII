@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER;..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\STM32F10x_FWLib\inc;..\HARDWARE\LED;..\uCOS-III\uC-BSP;..\uCOS-III\uC-CPU;..\uCOS-III\uC-III\Source;..\uCOS-III\uC-III\Ports\ARM-Cortex-M3\Generic\RealView;..\uCOS-III\uC-LIB;..\uCOS-III\uC-LIB\Ports\ARM-Cortex-M3\RealView;..\uCOS-III\uC-CPU\ARM-Cortex-M3\RealView;..\uCOS-III\uC-CONFIG</IncludePath>
+              <IncludePath>..\USER;..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\STM32F10x_FWLib\inc;..\HARDWARE\LED;..\uCOS-III\uC-BSP;..\uCOS-III\uC-CPU;..\uCOS-III\uC-III\Source;..\uCOS-III\uC-III\Ports\ARM-Cortex-M3\Generic\RealView;..\uCOS-III\uC-LIB;..\uCOS-III\uC-LIB\Ports\ARM-Cortex-M3\RealView;..\uCOS-III\uC-CPU\ARM-Cortex-M3\RealView;..\uCOS-III\uC-CONFIG;..\HARDWARE\GPIO</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -560,6 +560,11 @@
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\LED\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\GPIO\gpio.c</FilePath>
             </File>
           </Files>
         </Group>
